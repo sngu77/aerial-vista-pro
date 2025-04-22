@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				drone: {
+					DEFAULT: '#1A2B3C',
+					light: '#2D4C6A',
+					dark: '#0F1A26',
+					accent: '#3E92CC',
+					highlight: '#16BAC5',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

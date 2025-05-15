@@ -1,0 +1,23 @@
+
+/* Hide the "Edit with Lovable" button */
+[class*="lovable"],
+[id*="lovable"],
+[class*="Lovable"],
+[id*="Lovable"],
+[class*="LOVABLE"],
+[id*="LOVABLE"],
+[data-lovable],
+a[href*="lovable.dev"],
+a[href*="lovable.app"],
+div[class*="edit-with"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  overflow: hidden !important;
+}

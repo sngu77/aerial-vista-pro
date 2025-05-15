@@ -22,16 +22,15 @@ const Hero = () => {
       
       {/* Hero Content */}
       <div className="container mx-auto px-4 relative z-20 text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-          Capture Your World <br className="hidden md:block" />
-          <span className="text-accent">From Above</span>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight tracking-tighter">
+          Josh <span className="text-drone-accent">Aerial</span> Drone
         </h1>
-        <p className="text-lg md:text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-          Professional drone photography and videography services for breathtaking aerial perspectives.
+        <p className="text-lg md:text-xl text-white/90 mb-10 max-w-3xl mx-auto">
+          Professional drone photography and videography services capturing breathtaking moments from above.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-md">
-            View Portfolio
+        <div className="flex flex-col sm:flex-row gap-6 justify-center">
+          <Button size="lg" className="text-md bg-drone-accent hover:bg-drone-accent/90">
+            View Our Work
           </Button>
           <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-md">
             Our Services <ArrowRight className="ml-2 h-4 w-4" />

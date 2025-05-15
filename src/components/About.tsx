@@ -7,9 +7,9 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
-            <h2 className="text-4xl font-bold mb-6">About AerialVista</h2>
+            <h2 className="text-4xl font-bold mb-6">About Josh Aerial Drone</h2>
             <p className="text-lg text-foreground/80 mb-6">
-              AerialVista is a professional drone photography and videography company specializing in capturing breathtaking aerial perspectives. Founded in 2019, we've been helping businesses and individuals see their world from above.
+              Josh Aerial Drone is a professional drone photography and videography company specializing in capturing breathtaking aerial perspectives. Founded in 2019, we've been helping businesses and individuals see their world from above.
             </p>
             <p className="text-lg text-foreground/80 mb-8">
               Our team of FAA-certified drone pilots combines technical expertise with creative vision to deliver stunning aerial content. We use state-of-the-art equipment to ensure the highest quality results for every project.

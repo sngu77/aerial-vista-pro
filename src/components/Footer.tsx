@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">droneframefinders.fun</h3>
+            <h3 className="text-xl font-bold mb-4">Josh Aerial Drone</h3>
             <p className="text-white/80 mb-6">
               Professional drone photography and videography services capturing breathtaking aerial perspectives.
             </p>
@@ -101,7 +101,7 @@ const Footer = () => {
                 <svg className="h-5 w-5 mr-3 mt-0.5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
-                <span className="text-white/80">info@droneframefinders.fun</span>
+                <span className="text-white/80">info@joshaerial.com</span>
               </li>
               <li className="flex items-start">
                 <svg className="h-5 w-5 mr-3 mt-0.5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +117,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">
-            © 2025 droneframefinders.fun. All rights reserved.
+            © 2025 Josh Aerial Drone. All rights reserved.
           </p>
           <button 
             onClick={scrollToTop}
